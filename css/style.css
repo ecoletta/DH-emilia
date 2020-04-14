@@ -1,0 +1,41 @@
+body.home{
+    background-image: url(../img/emilia-home.jpg);
+    background-size: 75%;
+    background-position: right top;
+    color: black;
+    background-repeat: no-repeat;
+  }
+
+#emilia{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+    position: relative;
+    left: 20px;
+}
+
+a.home{
+    color: gray;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 0px;
+    position: relative;
+    left: 20px;
+}
+
+i{
+    position: relative;
+    left: 20px; 
+}
+
+h1.home{
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 70px;
+    background-color: rgba(255,255,255,0.3);
+    position: relative;
+    left: 20px;
+    top: 70px;
+    
+}
