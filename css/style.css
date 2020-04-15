@@ -1,3 +1,4 @@
+/* Estilos del home */
 body.home{
     background-image: url(../img/emilia-home.jpg);
     background-size: 75%;
@@ -24,7 +25,7 @@ a.home{
     left: 20px;
 }
 
-i{
+i.home{
     position: relative;
     left: 20px; 
 }
@@ -38,4 +39,65 @@ h1.home{
     left: 20px;
     top: 70px;
     
+}
+
+/* Estilos para contacto */
+a.contacto{
+    color: gray;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 0px;
+}
+i.contacto{
+    position: relative;
+    left: 100px;
+}
+div{
+    float: right;
+}
+
+h1.contacto{
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 60px;
+    background-color: rgba(255,255,255,0.3);
+    position: relative;
+    left: 20px;
+    top: 70px;
+    
+}
+h2.contacto{
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 25px;
+    background-color: rgb(255,255,255,0);
+    position: relative;
+    left: 20px; 
+}
+
+h3.contacto{
+    color:turquoise;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+}
+p.contacto#mail{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    left: 20px;
+    line-height: 3px;
+}
+a.contacto#mail{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 3px;
 }
